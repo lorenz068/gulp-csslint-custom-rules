@@ -1,0 +1,28 @@
+{
+  "name": "gulp-csslint-gsoft-rules",
+  "version": "1.0.0",
+  "description": "add new rules to improve csslint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorenz068/gulp-csslint-gsoft-rules.git"
+  },
+  "keywords": [
+    "csslint",
+    "gulp",
+    "plugin",
+    "selector",
+    "code quality",
+    "rules",
+    "css"
+  ],
+  "author": "Laurent Bonnot <laurent.bonnot@gmail.com> (https://twitter.com/lorenz068)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lorenz068/gulp-csslint-gsoft-rules/issues"
+  },
+  "homepage": "https://github.com/lorenz068/gulp-csslint-gsoft-rules",
+  "devDependencies": {
+    "gulp-csslint": "0.1.5"
+  }
+}
