@@ -1,4 +1,4 @@
-# gulp-csslint-GSoft-rules
+# gulp-csslint-gsoft-rules
 Add several rules to improve CSS Lint
 
 - Check case of selector
@@ -7,7 +7,7 @@ Add several rules to improve CSS Lint
 
 ### Install
 
-Install with npm: `npm install --save-dev gulp-csslint-GSoft-rules`
+Install with npm: `npm install --save-dev gulp-csslint-gsoft-rules`
 
 #### gulp-csslint
 
