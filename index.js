@@ -1,8 +1,10 @@
 var customRules = 
 //Array of GSoft CSS lint rules
 [
+    
     //Check space or indentation inside selector
     {
+        
         //rule information
         id: "GSoft-selector-space",
         name: "Warning with space inside selectors",
@@ -30,8 +32,10 @@ var customRules =
             });
         }
     },
+    
     //Check case of selector
     {
+        
         //rule information
         id: "GSoft-selector-lowercase",
         name: "Normalize selectors name",
@@ -58,6 +62,7 @@ var customRules =
             });
         }
     },
+    
     //Check Selector depth
     {
         //rule information
