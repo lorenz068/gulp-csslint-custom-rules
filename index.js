@@ -1,6 +1,6 @@
-var customRules = 
+
 //Array of GSoft CSS lint rules
-[
+var customRules = [
     
     //Check space or indentation inside selector
     {
