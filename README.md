@@ -14,7 +14,7 @@ Install with npm: `npm install --save-dev gulp-csslint-gsoft-rules`
 ```
 
 // Add GSoft Custom Rules
-gsoftCsslintCustomRules.forEach(function(rule) {
+CsslintGsoftRules.forEach(function(rule) {
     csslint.addRule(rule);
 });
 ```
