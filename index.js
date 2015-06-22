@@ -1,38 +1,7 @@
 
 //Array of GSoft CSS lint rules
 var customRules = [
-    
-    //Check space or indentation inside selector
-    {
         
-        //rule information
-        id: "GSoft-selector-space",
-        name: "Warning with space inside selectors",
-        desc: "Don't use indentation or multiple space inside selectors",
-        browsers: "All",
-
-        //initialization
-        init: function (parser, reporter) {
-            "use strict";
-            var rule = this;
-
-            parser.addListener("startrule", function (event) {
-
-                var selector,
-                    i;
-
-                for (i = 0; i < event.selectors.length; i++) {
-                    selector = event.selectors[i];
-
-                    if (/  +/.test(selector.text)) {
-                        reporter.report("You have more than one space between in your selectors.", selector.line, selector.col, rule);
-                    }
-                }
-
-            });
-        }
-    },
-    
     //Check case of selector
     {
         
